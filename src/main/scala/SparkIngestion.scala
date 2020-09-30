@@ -19,8 +19,6 @@ object SparkIngestion {
   Logger.getLogger("org").setLevel(Level.OFF)
   Logger.getLogger("akka").setLevel(Level.OFF)
 
-  Class.forName("com.mysql.jdbc.Driver").newInstance
-
   val sc = new SparkContext("local[*]" , "Spark")
   val sqlContext = new org.apache.spark.sql.SQLContext(sc)
   import sqlContext.implicits._

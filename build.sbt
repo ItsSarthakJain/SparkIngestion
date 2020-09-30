@@ -1,4 +1,4 @@
-name := "untitled1"
+name := "SparkIngestion"
 
 version := "0.1"
 
