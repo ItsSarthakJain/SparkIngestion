@@ -1,0 +1,46 @@
+[info] Updating {file:/home/kubernetes/IdeaProjects/hdfs-spark-mysql/}hdfs-spark-mysql...
+[debug] :: resolving dependencies :: untitled1#untitled1_2.11;0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for untitled1#untitled1_2.11;0.1 [compile]
+[debug] == resolving dependencies untitled1#untitled1_2.11;0.1->org.scala-lang#scala-library;2.11.11 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.11 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.11 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.11 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.11 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[info] Resolving org.scala-lang#scala-library;2.11.11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.11 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.11
+[debug] 	found org.scala-lang#scala-library;2.11.11 in sbt-chain
+[debug] 	[2.11.11] org.scala-lang#scala-library;2.11.11
+[debug] == resolving dependencies untitled1#untitled1_2.11;0.1->org.scala-lang#scala-library;2.11.11 [compile->runtime]
+[debug] == resolving dependencies untitled1#untitled1_2.11;0.1->org.scala-lang#scala-library;2.11.11 [compile->compile]
+[debug] == resolving dependencies untitled1#untitled1_2.11;0.1->org.scala-lang#scala-library;2.11.11 [compile->master]
+[debug] == resolving dependencies untitled1#untitled1_2.11;0.1->org.apache.spark#spark-core_2.11;2.1.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.11 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.11 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.11 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.11 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.11 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[info] Resolving org.apache.spark#spark-core_2.11;2.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.11;2.1.0 {compile=[default(compile)]}
+[info] Resolving org.apache.spark#spark-core_2.11;2.1.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-core_2.11;2.1.0 {compile=[default(compile)]}
+[debug] 		tried /home/kubernetes/.ivy2/local/org.apache.spark/spark-core_2.11/2.1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.spark#spark-core_2.11;2.1.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom
+[debug] 	public: found md file for org.apache.spark#spark-core_2.11;2.1.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom (2.1.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.1.0!spark-core_2.11.pom(pom.original) (1506ms)
+[info] Resolving org.apache.spark#spark-parent_2.11;2.1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}
+[info] Resolving org.apache.spark#spark-parent_2.11;2.1.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}
+[debug] 		tried /home/kubernetes/.ivy2/local/org.apache.spark/spark-parent_2.11/2.1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.spark#spark-parent_2.11;2.1.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom
+[debug] 	public: found md file for org.apache.spark#spark-parent_2.11;2.1.0
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom (2.1.0)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spark-Hdfs-Sql.iml" filepath="$PROJECT_DIR$/.idea/modules/Spark-Hdfs-Sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkIngestion.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkIngestion.iml" />
+    </modules>
+  </component>
+</project>
