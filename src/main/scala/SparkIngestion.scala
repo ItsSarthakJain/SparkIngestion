@@ -20,27 +20,10 @@ object SparkIngestion {
   Logger.getLogger("akka").setLevel(Level.OFF)
 
   Class.forName("com.mysql.jdbc.Driver").newInstance
-  val connectionProperties = new Properties()
-
-  connectionProperties.put("user", "sarthak")
-  connectionProperties.put("password", "sarthak")
-
-  val con:Connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+mysqlDB,connectionProperties)
 
   val sc = new SparkContext("local[*]" , "Spark")
   val sqlContext = new org.apache.spark.sql.SQLContext(sc)
   import sqlContext.implicits._
-
-  def createTable(): Unit ={
-
-    val result = con.prepareStatement(s"create table if not exists aggregation (mode varchar(255), median integer) ").execute()
-
-    if (result==true)
-      println("Table created")
-    else
-      println("Table not created")
-
-  }
 
   def medianCalculator(seq: Seq[Int]): Int = {
     //In order if you are not sure that 'seq' is sorted
@@ -78,22 +61,25 @@ object SparkIngestion {
 
   def main(args : Array[String]): Unit ={
 
-    createTable()
-
+    println("Reading From CSV stored on hadoop")
     // Read dataset from csv on hdfs
     val hadoopDataset = sqlContext.read.option("header", "true").csv(hdfsPath)
     hadoopDataset.registerTempTable("dataset")
 
+    println("Calculating Median and Mode")
     //Read from dataset table and get values for Median and Mode
     val mode=sqlContext.sql("SELECT `name` FROM `dataset` GROUP BY `name` ORDER BY count(number) DESC LIMIT 1").first().get(0)
     val numbers=sqlContext.sql("SELECT `number` FROM `dataset` ORDER BY number").collect().map(_.get(0)).toList
     val median=medianCalculator(numbers.map(_.toString.toInt))
 
+    println()
+    println("Gathering results in dataframe")
     //Create aggregation dataframe
     val aggregation = Seq(
       (median.toString,mode.toString)
-    ).toDF("Median", "Mode")
+    ).toDF("Median(Of Numbers)", "Mode(of Names)")
 
+    println("Writing results to sql table")
     //Write data df to sql table
     writeDFtoSqlTable(aggregation)
     println()

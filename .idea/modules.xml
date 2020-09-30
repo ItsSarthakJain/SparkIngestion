@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spark-Hdfs-Sql.iml" filepath="$PROJECT_DIR$/.idea/modules/Spark-Hdfs-Sql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkIngestion.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkIngestion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled1.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled1-build.iml" />
     </modules>
   </component>
 </project>

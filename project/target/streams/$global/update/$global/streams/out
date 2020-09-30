@@ -1,11 +1,11 @@
-[info] Updating {file:/home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/}hdfs-spark-mysql-build...
-[debug] :: resolving dependencies :: default#hdfs-spark-mysql-build;0.1-SNAPSHOT
+[info] Updating {file:/home/kubernetes/SparkIngestion/project/}sparkingestion-build...
+[debug] :: resolving dependencies :: default#sparkingestion-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-sbt#global-plugins;0.0 ...
@@ -14,9 +14,9 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -24,10 +24,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -37,8 +37,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-lang#scala-library;2.10.6 ...
@@ -46,10 +46,10 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
 [debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
 [debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-sbt#sbt;0.13.15 ...
@@ -1839,11 +1839,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -1854,9 +1854,9 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -1865,10 +1865,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -3741,10 +3741,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -3755,13 +3755,13 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -3776,9 +3776,9 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -3791,10 +3791,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.15 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -5867,20 +5867,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#hdfs-spark-mysql-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies for default#sparkingestion-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -5946,14 +5946,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -6009,11 +6009,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#hdfs-spark-mysql-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#sparkingestion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -6070,19 +6070,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1471ms :: artifacts dl 30ms
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT compile produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-compile.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT runtime produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-runtime.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT test produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-test.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT provided produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-provided.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT optional produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-optional.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT compile-internal produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-compile-internal.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT runtime-internal produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-runtime-internal.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT test-internal produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-test-internal.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT plugin produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-plugin.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT sources produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-sources.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT docs produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-docs.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT pom produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-pom.xml
-[debug] 	report for default#hdfs-spark-mysql-build;0.1-SNAPSHOT scala-tool produced in /home/kubernetes/IdeaProjects/hdfs-spark-mysql/project/target/resolution-cache/reports/default-hdfs-spark-mysql-build-scala-tool.xml
-[debug] 	resolve done (1471ms resolve - 30ms download)
+[debug] :: resolution report :: resolve 2471ms :: artifacts dl 64ms
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT compile produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-compile.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT runtime produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-runtime.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT test produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-test.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT provided produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-provided.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT optional produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-optional.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT compile-internal produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-compile-internal.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT runtime-internal produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-runtime-internal.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT test-internal produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-test-internal.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT plugin produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-plugin.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT sources produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-sources.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT docs produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-docs.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT pom produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-pom.xml
+[debug] 	report for default#sparkingestion-build;0.1-SNAPSHOT scala-tool produced in /home/kubernetes/SparkIngestion/project/target/resolution-cache/reports/default-sparkingestion-build-scala-tool.xml
+[debug] 	resolve done (2471ms resolve - 64ms download)
 [info] Done updating.
