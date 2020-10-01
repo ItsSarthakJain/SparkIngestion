@@ -4,7 +4,7 @@
 		module="sparkingestion$sources_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20201001005454"
+		publication="20201001131456"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

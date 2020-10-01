@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents.SparkIngestion.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents.SparkIngestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SarkIngestion.iml" filepath="$PROJECT_DIR$/.idea/modules/SarkIngestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkIngestion.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkIngestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkIngestion-build.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkIngestion-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kubernetes.SparkIngestion.iml" filepath="$PROJECT_DIR$/.idea/modules/kubernetes.SparkIngestion.iml" />
     </modules>
   </component>
 </project>

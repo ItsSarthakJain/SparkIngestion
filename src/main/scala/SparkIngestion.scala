@@ -1,11 +1,17 @@
+import java.io.{BufferedInputStream, FileInputStream, PrintWriter}
+
 import org.apache.spark.SparkContext
 import java.sql.DriverManager
 import java.sql.Connection
 import java.util.Properties
 
+import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.{FileSystem, Path}
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
 import org.apache.spark.sql.{DataFrame, Row}
+
+import scala.io.Source
 
 object SparkIngestion {
 
@@ -13,7 +19,7 @@ object SparkIngestion {
   val username="sarthak"
   val password="sarthak"
   val mysqlTable="aggregation"
-  val hdfsPath="hdfs://127.0.0.1:9000/spark/dataset.csv"
+  val hdfsPath="hdfs://127.0.0.1:9000/usr/hduser/dataset.csv"
   val mysqlDB="hadoop"
 
   Logger.getLogger("org").setLevel(Level.OFF)
@@ -22,6 +28,23 @@ object SparkIngestion {
   val sc = new SparkContext("local[*]" , "Spark")
   val sqlContext = new org.apache.spark.sql.SQLContext(sc)
   import sqlContext.implicits._
+
+  def writeToHDFS(path: String): Unit ={
+    val conf = new Configuration()
+    conf.set("fs.defaultFS", "hdfs://127.0.0.1:9000")
+    val fs= FileSystem.get(conf)
+    val output = fs.create(new Path("/usr/hduser/dataset.csv"))
+    val writer = new PrintWriter(output)
+    try {
+      for (line <- Source.fromFile(path).getLines) {
+          writer.write(line)
+        writer.write("\n")
+      }
+    }
+    finally {
+      writer.close()
+    }
+  }
 
   def medianCalculator(seq: Seq[Int]): Int = {
     //In order if you are not sure that 'seq' is sorted
@@ -58,6 +81,10 @@ object SparkIngestion {
   }
 
   def main(args : Array[String]): Unit ={
+
+    println("Trying to write to HDFS...")
+    writeToHDFS("/home/kubernetes/Documents/SparkIngestion/src/test/dataset2.csv")
+    println("Wrote dataset to hdfs...")
 
     println("Reading From CSV stored on hadoop")
     // Read dataset from csv on hdfs

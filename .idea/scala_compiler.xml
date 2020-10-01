@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="kubernetes.SparkIngestion,untitled1" />
+    <profile name="sbt 1" modules="Documents.SparkIngestion,kubernetes.SparkIngestion,untitled1" />
   </component>
 </project>
